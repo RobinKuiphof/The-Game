@@ -96,22 +96,105 @@
 									}
 									if(code == 1){
 										alert("De code is goed");
-										var geld = prompt("Hoeveel geld wil je meenemen 1. 25% 2. 50% 3. 75% 4. 100%");
+										var geld = prompt("Hoeveel procemt vam het geld wil je meenemen 1. 25% 2. 50% 3. 75% 4. 100%");
 										if(kluis == 3){
 											var explosieven = prompt("Hoeveel explosieven wil je gebruiken? 1. 200 gram 2. 400 gram 3. 1000 gram");
 											if (explosieven != 1){
 												alert("De kluis is niet opgeblazen, De bank zelf alleen wel");
 											}
 											if(explosieven == 1){
-												aler("De kluis is open, alleen de hele stad is helaas wel weg");
+												alert("De kluis is open, alleen de hele stad is helaas wel weg");
 											}
 										}
-									
+										if(geld >= 3){
+											alert("Je hebt je rug gebroken toen je zoveel geld probeerde te dragen");
+											if(geld <= 2){
+												var uitweg = prompt("Hoe wil je weg gaan 1. touw uit het raam 2. je gebruikt de lucht schagt 3. je gaat naar het dak 4.je gaat naar de hoofuitgang");
+												}
+												if(uitweg == 1){
+													alert("Je was niet sterk genoeg om met het geld aan het touw naar beneden te gaan");	
+												}
+												if(uitweg == 2){
+													alert("Het was een leuk idee todat je erdoorheen zakte en aangehouden werd");
+												}
+												if(uitweg == 3){
+													var terugdak = prompt("Hoe wil je van het dak afkomen 1. Je springt in de vuilnisbak 2. je gebruikt de regenpijp 3. je roept om hulp");
+													if(terugdak == 1){
+														alert("Het was iets te hoog om naar beneden te springen, Je bent nu helaas op een hele vernederende manier aangehouden");
+														}
+													if(terugdak == 2){
+														alert("De regenpijp is helaas afgebroken en je bent gevallen, Jammer!!!");
+														}
+													if(terugdak == 3){
+														var hulp = prompt("Niemand heeft je gehoord wat wil je nu doen 1. Nog een keer om hulp roepen 2. terug naar binnen gaan");
+														if(hulp == 1){
+															alert("De brandweer komt je van het dak halen")
+															var brandweer = prompt("Wat wil je doen met de brandweer. 1. Bedreig de brandweer met je wapen 2. geef je over");
+															if(brandweer == 2){
+																alert("Je hebt je overgegeven je krijgt een minder erge straf. probeer het nog maar eens!");
+																}
+															if(brandweer == 1){
+																alert("Toen de brandweerman het wapen zag heeft hij je naar beneden gegooit. Jammer!!!");
+															if(hulp == 2){
+																var gefaald = prompt("Hoe wil je weg gaan 1. touw uit het raam 2. je gebruikt de lucht schagt 3. je gaat naar het dak 4.je gaat naar de hoofuitgang");
+																	alert("helaas een bewaker heeft je gezien en aangehouden");
+																} 
+															}
+														}
+													}
+												}
+												if(uitweg == 4){
+													var bewakeruitweg = prompt("je komt een bewaker tegen op je uitweg wat doe je 1. je Bedreigt de bewaker met je wapen 2. je zegt dat je net de bank hebt overvallen 3. je doet alsof je je geld gewoon even op komt halen 4. je probeert hem om te kopen");
+													if(bewakeruitweg == 1){
+														alert("Je was te sloom met je wapen trekken en je bent helaas neergeschoten");
+													}
+													if(bewakeruitweg == 2){
+														alert("Leuk idee gewoon toegeven maar het werkt niet, Sorry");
+													}
+													if(bewakeruitweg == 3){
+													 	alert("Het alarm gaat af!!!!")
+													 	var schuilpaats = prompt("waar wil je gaan verstoppen 1. de WC 2. je loopt gewoon rustig naar buiten 3. je gaat naar de kelder");
+														if(bewakeruitweg == 4){
+															alert("Hij wilt misschien een deal maken");
+															if(geld == 2){
+																var geldinleveren = prompt("Hoeveel geld wil je inleveren in percentage van het totale aantal in de kluis 1. 50% 2. 25% 3. 10%");
+																if(geldinleveren == 3){
+																	alert("Hij vindt het teweinig en heeft je aangehouden");
+																}
+																if(geldinleveren == 2){
+																	alert("Hij vondt het goed");
+																	alert("Het  alarm gaat af!!!");
+															 		var schuilpaats = prompt("waar wil je gaan verstoppen 1. de WC 2. je loopt gewoon rustig naar buiten 3. je gaat naar de kelder");							
+															 	if (geldinleveren == 1){
+																	alert("Hij vondt het goed");
+																	alert("Het  alarm gaat af!!!");
+															 		var schuilpaats = prompt("waar wil je gaan verstoppen 1. de WC 2. je loopt gewoon rustig naar buiten 3. je gaat naar de kelder");	
+																	}		
+																}										
+															}
+															if(geld == 1){
+																var geldinleveren2 = prompt("Hoeveel geld wil je inleveren in percentage van het totale aantal in de kluis 1. 50% 2. 25% 3. 10%");
+																if(geldinleveren2 == 3){
+																	alert("Hij vindt het teweinig en heeft je aangehouden");
+																}
+																if(geldinleveren2 == 2){
+																	alert("Hij vindt het teweinig en heeft je aangehouden");					
+															 	if (geldinleveren2 == 1){
+																	alert("Hij vondt het goed");
+																	alert("Het  alarm gaat af!!!");
+															 		var schuilpaats = prompt("waar wil je gaan verstoppen 1. de WC 2. je loopt gewoon rustig naar buiten 3. je gaat naar de kelder");
+
+															}
+														}
+													}
 
 
 
-
-									
+													
+												}
+											}
+										}
+									}	
 								}		
 							}
 						}
