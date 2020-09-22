@@ -1,0 +1,107 @@
+<html>
+	<body>
+		<script>
+		alert("Welcome, dit is de bank overval game");		// Titel van game
+		console.log("Start Game");
+	
+		var naam = prompt("Wat is je naam");						// naam voor score bord
+		var leeftijd = prompt("Wat is je leeftijd");		// leeftijd voor verfication
+
+		if(leeftijd <= 12){
+			alert("Je  bent niet oud genoeg");
+			}
+			else{
+			alert("Je bent oud genoeg")
+			alert("Je moet zo een aantal keuzes gaan maken vul het nummer in wat voor de keuze staat in.");
+			var wapen = prompt("Welk wapen wil je. 1. bijl 2. pistool");
+			alert("Je hebt je wapen gekozen");
+			console.log ("wapen gekozen");
+			var vervoer = prompt("Hoe ga je naar de bank: 1. met de auto 2. lopend 3. helikopter 4. fiets")
+			console.log("vervoer gekozen")
+			if(vervoer == "3"){
+				alert("Je hebt het niet gehaald, je was helaas je parachute vergeten")
+				}
+				else{
+					alert("Je bent aangekomen bij de bank");
+					var naarbinnen = prompt("Hoe wil je naar binnen 1. vooringang 2. achteringang 3. via het dakluik")
+					console.log("Je hebt je ingang gekozen")
+				if(naarbinnen != 3){
+					alert("Je bent gefaald, De bewakers hebben je wapen gezien");	
+					}		
+					else{
+						var naardakluik = prompt("Hoe wil je naar het dakluik 1. via de regenpijp 2. iets anders zoeken");
+						console.log("je hebt de eerste stap van dakluik gedaan");		
+					if(naardakluik == 1){
+						alert("Je bent gevallen en opgepakt door de politie. Volgende keer meschien wat beter trainen");
+						}
+						else{
+							var laddergevonden = prompt("Je hebt een ladder gevonden. 1. gebruik de ladder 2. pak toch de regenpijp 3. kijken of er nog iets anders is");
+							console.log("je hebt je manier naar het dakluik gekozen");	
+						if(laddergevonden == 3){
+							alert("Je hebt iets gevonden");
+							alert("Een politie agent die je in de boeie slaat, Jammer!!!");	
+						}
+						if(laddergevonden == 2){
+							alert("Je bent gevallen en opgepakt door de politie. Volgende keer meschien wat beter trainen");
+						}
+							else{
+								alert("Je bent bij het dakluik gekomen");
+								alert("Je gaat naar binnen.");
+								
+
+
+
+								if(wapen == "2"){
+									var bewakerpis = prompt("Er staat een bewaker wat doe je, 1. je schiet de bewaker neer 2. je loopt door alsof je er werkt 3. je probeert hem omtekopen")
+									if(bewakerpis == "1"){
+										alert("Je lade je wapen je richte..... En toen was de bewaker je helaas net voor volgende keer moet je misschien net wat sneller zijn.")
+									}
+								if(bewakerpis == "3"){
+									var geld = prompt("Hoeveel geld wil je hem geven 1. 25% 2. 50% 3. 75% 4. 100%")
+								if(geld > 2){
+									alert("Nadat je het geld gaf heeft hij het alarm ingedrukt en werd je helaas opgepakt")	
+								}
+								if(geld < 3){
+									alert("Hij vondt het teweinig en drukte het alarm in. Jammer!!!")	
+									}
+								}
+								if(wapen == "1"){
+									var bewakerbij = prompt("Er staat een bewaker wat doe je, 1. je slaat de bewaker neer met je bijl 2. je loopt door alsof je er werkt 3. je probeert hem omtekopen")
+								}
+								if(bewakerbij == "1"){
+									alert("Je was er bijna, de bewaker heeft je net voordat je kon slaan je beschoten met een tazer.")
+								}
+								if(bewakerbij == "3"){
+									var geld = prompt("Hoeveel geld wil je hem geven 1. 25% 2. 50% 3. 75% 4. 100%")
+								if(geld > 2){
+									alert("Nadat je het geld gaf heeft hij het alarm ingedrukt en werd je helaas opgepakt")	
+								}
+								if(geld < 3){
+									alert("Hij vondt het teweinig en drukte het alarm in. Jammer!!!")	
+									}
+								}
+									if(bewakerpis == 2){
+									alert("Hij was niet goed aan het opletten, dus je kon gewoon doorlopen")
+									}
+									if(bewakerbij == 2){
+									alert("Hij was niet goed aan het opletten, dus je kon gewoon doorlopen")
+									}
+
+
+
+							
+
+
+								
+							
+						}
+					}
+				}
+			} 
+		}	
+
+		
+
+		</script>
+	</body>
+</html>
