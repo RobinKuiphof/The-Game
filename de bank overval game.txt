@@ -1,0 +1,57 @@
+de bank overval game
+
+de bank overval game is een game waarbij je een bank gaat overvallen en je een aantal keuzes moet gaan maken om uiteindelijk buiten te komen met al het geld.
+
+idee tot nu toe:
+
+vraag 1: naam en leeftijd. minimale leeftijd voor game
+
+vraag 2: welk wapen wil je (zwaart, bijl en pistool)
+
+	Je gaat een bank overvallen 
+
+vraag 3: hoe ga je er heen (auto, lopend, helikopter of fiets)
+
+vraag 4: hoe kom je binnen bij de bank (via de vooringang, via de achteringang of via het dakluik)
+
+vraag 5: er staat een bewaker wat doe je  (je schiet de bewaker neer, je loopt door alsof je er werkt of je probeert hem omtekopen)
+vraag 5: er staat een bewaker wat doe je  (je slaat de bewaker neer met je bijl, je loopt door alsof je er werkt of je probeert hem omtekopen)
+vraag 5: er staat een bewaker wat doe je  (je slaat de bewaker met je zwaard, je loopt door alsof je er werkt of je probeert hem omtekopen)
+
+je komt aan bij de kluis 
+
+vraag 6: wat doe je met de kluis  (je neemt de hele kluis mee, je probeert de cijfer combinatie te raden, je blaast de kluis op met een grote BOEM)
+vraag 6.1 hoeveel explosieven wil je gebruiken 
+
+je hebt het geld en nu nog wegkomen 
+
+vraag 7: hoe ga je weg (met een touw uit het raam, je gebruikt de lucht schagt, je gaat naar het dak, je gaat naar de hoofduitgang)
+vraag 7.1 : hoe kom je naar beneden (je springt naar beneden in de vuilbak, je gebruikt de regenpijp of je roept om hulp)
+vraag 7.2 : niemand reageert (probeer het nogmaals of ga terug naar binnen)
+vraag 7.3: de brandweer komt(bedreig de brandweer met je wapen, geef je over)
+
+vraag 8: richting de hoofdingang spreekt een bewaker je aan wat doe je (je bedreigt de bewaker met je wapen, je zegt dat je net een bank hebt overvallen of je doet of verschrikkelijk rijk bent en dat je even wat geld op komt halen)
+als vraag 8 = geeft toe = 8.1
+vraag 8.1: je koopt hem om, je rent weg of je bedreigt hem
+
+Je bent vergeten de kluis dicht te doen, het alarm gaat af!
+
+vraag 9: waar ga je heen: de wc, (je loopt gewoon rustig naar buiten of je gaat naar de kelder)
+
+vraag 10: Wat doe je nu (je wacht in de hoop niet gevonden te worden, je gaat zoeken naar een uitweg of je gaat terug naar boven)
+
+Je hebt geluk! Je vindt gang waardoor je kan kruipen.
+
+vraag 11: Wil je de gang in (Ja of nee ik wil verder zoeken)
+
+de gang loopt dood
+
+Je zoekt verder en vindt een deur met nooduitgang erop
+
+vraag 12: (Wil je door de deur, toch de gang nemen of wachten)
+
+De deur komt uit aan de achterkant van het gebouw
+
+vraag 13: (wil je eerst voorzichtig kijken of gelijk rennen)
+
+vraag 14: hoe wil je verder wegvluchten (met een taxi lopend of met de auto )
